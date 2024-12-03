@@ -3,3 +3,12 @@ body, html{
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.accordion {
+    --bs-accordion-active-bg: transparent;
+    --bs-accordion-border-color: transparent;
+    --bs-accordion-border-width: 0;
+    --bs-accordion-border-radius: 0;
+    --bs-accordion-inner-border-radius: 0;
+}
