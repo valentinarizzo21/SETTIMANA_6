@@ -43,8 +43,44 @@ button {
   background-color: #4CAF51;
 }
 
+.partOne {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: fadeInText 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 100;
+    transform: translateX(0);
+  }
+}
+.partTwo {
+  opacity: 0;
+  z-index: 1;
+  transform: translateY(200px);
+  animation: fadeInImage 1s ease-out forwards;
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeInImage {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
 main img {
   box-shadow: none;
+  z-index: -1;
 }
 
 header {
