@@ -1,7 +1,7 @@
 .partOne{
     opacity: 0;
     transform: translateX(-100px);
-    animation: fadeInText 1s ease-out forwards;
+    animation: fadeInText 1s ease-in forwards;
     animation-delay: 0.5s;
 }
 
@@ -20,7 +20,7 @@
     opacity: 0;
     z-index: 1;
     transform: translateY(200px);
-    animation: fadeInImage 1s ease-out forwards;
+    animation: fadeInImage 1s ease-in-out forwards;
     animation-delay: 0.9s;
 }
 
